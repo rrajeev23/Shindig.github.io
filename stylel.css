@@ -1,0 +1,100 @@
+body
+{
+	background-image: url("Balloons birthday.jpg");
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	color: white;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	font-style: bold;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.heading
+{
+	float: left;
+	width: 150px;
+	font-family: Century Gothic;
+	height: auto;
+	color: green;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0,.8);
+	border-radius: 10px;
+}
+.box h2{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+.box .inputbox{
+	position: relative;
+}
+
+.box .inputbox input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid;
+	margin-bottom: 30px;
+	background: transparent;
+	outline: none;
+	
+}
+.box .inputbox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label{
+	top: -20px;
+	left: 0;
+	color: blue;
+}
+
+.box input[type="submit"]
+{
+	background: blue;
+	border: none;
+	padding: 10px 20px;
+	color: #fff;
+}
+a{
+	color: #fff;
+font-style: italic;
+}	
+	
